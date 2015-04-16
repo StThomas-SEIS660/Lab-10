@@ -21,16 +21,33 @@ Then bring up Firefox over X:
 
     firefox -XC -no-remote &
 
-then log in to:
+then, using that Firefox window, log in to:
 
 http://192.168.33.37/itop
 
-* Incident
-** creation
-** investigation
-** marshalling
-** routing
+Default user name is "admin," no password. (Don't do this in the real world.)
 
-change
+At the same time, using a LOCAL browser (not the Firefox where you have iTOP), go to the iTop documentation at:
 
-problem
+https://wiki.openitop.org/doku.php?id=start
+
+* Set up your teams (disregard existing teams)
+** as admin, give each person on your team an ID and password (Configuration Management|Contacts)
+** assign each to the appropriate team, named TeamX where X={1-4}
+
+* Set up your configuration items
+** Each team has one application service running on two servers
+*** team 1: "ecom"
+*** team 2: "s-chain"
+*** team 3: "SAP"
+*** team 4: "email"
+
+
+
+
+* Work through scripts
+** Set up a new service contract
+** Execute a Change against a CI
+** Initiate and fulfill a service request for access
+** Register an Incident against a CI
+** Register a Problem against a CI
