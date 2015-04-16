@@ -2,20 +2,34 @@
 
 This lab will introduce you to a full IT service management suite supporting the ITIL process framework.
 
-question:
-drop them in the middle of an active situation or have them set it up themselves?
+Here is the scenario: you are four teams within a larger organization.
 
-should they be installing ... leaning no
+Team 1: customer facing ecommerce site
+Team 2: back office supply chain/inventory
+Team 3: ERP system
+Team 4: infrastructure (data center & end user computing)
 
-test
+ssh with X-windows to seis660.gps.stthomas.edu.
 
+If you are going to use X-windows, you should log in with the following options if you are on a Mac:
 
-incident
+    ssh -XC -c blowfish-cbc,arcfour  yourID@seis660.gps.stthomas.edu
 
-* creation
-* investigation
-* marshalling
-* routing
+If you are on a PC using Putty or MobaXterm, you will have a checkbox (that may have defaulted to checked) to enable X. You're on your own to figure out compression options.
+
+Then bring up Firefox over X:
+
+    firefox -XC -no-remote &
+
+then log in to:
+
+http://192.168.33.37/itop
+
+* Incident
+** creation
+** investigation
+** marshalling
+** routing
 
 change
 
