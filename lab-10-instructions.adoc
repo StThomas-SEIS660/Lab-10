@@ -5,6 +5,10 @@ This lab will introduce you to a full IT service management suite supporting the
 question:
 drop them in the middle of an active situation or have them set it up themselves?
 
+should they be installing ... leaning no
+
+test
+
 
 incident
 
