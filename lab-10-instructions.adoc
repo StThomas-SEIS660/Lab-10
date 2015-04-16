@@ -1,0 +1,18 @@
+== Lab 10: IT Service Management Suite
+
+This lab will introduce you to a full IT service management suite supporting the ITIL process framework.
+
+question:
+drop them in the middle of an active situation or have them set it up themselves?
+
+
+incident
+
+* creation
+* investigation
+* marshalling
+* routing
+
+change
+
+problem
