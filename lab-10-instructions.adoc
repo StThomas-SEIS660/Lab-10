@@ -31,12 +31,16 @@ At the same time, using a LOCAL browser (not the Firefox where you have iTOP), g
 
 https://wiki.openitop.org/doku.php?id=start
 
+iTop is enterprise software. It consists of many screens that help you add, update, and delete across a complex, shared data model. It is intended as a tool to structure collaboration, in the form of defined processes.
+
+
+
 * Set up your teams (disregard existing teams)
 ** as admin, give each person on your team an ID and password (Configuration Management|Contacts)
 ** assign each to the appropriate team, named TeamX where X={1-4}
 
 * Set up your configuration items
-** Each team has one application service running on two servers
+** Each team has one application solution running on two servers
 *** team 1: "ecom"
 *** team 2: "s-chain"
 *** team 3: "SAP"
