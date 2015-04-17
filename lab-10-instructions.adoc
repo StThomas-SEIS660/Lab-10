@@ -61,7 +61,7 @@ Team 4: infrastructure (data center & end user computing, including email)
 image::contacts.png[]
 image::person.png[]
 
-.Critical note
+**Critical note**
 ****
 There are dozens of possible screens in iTop, and the lab does not document them all with screenshots. It would start to become very redundant.
 
